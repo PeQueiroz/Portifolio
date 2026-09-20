@@ -85,7 +85,7 @@ header {
     border: 1px solid #252b33;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .file-name {
@@ -159,14 +159,18 @@ header {
     border: 1px solid #252b33;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#eu {
+    border-bottom: 2px solid #1E262D;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #bts_eu {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    height: 100px;
     margin-top: 10px;
 }
 
@@ -180,6 +184,12 @@ header {
     border-radius: 5px;
     font-size: large;
     font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+    transition: 0.3s;
+}
+
+.bt_eu:hover {
+    transform: translateY(-2%);
+    background-color: #202937;
 }
 
 #acima {
@@ -195,4 +205,8 @@ header {
 #lema {
     color: #7FD9B0;
     font-size: 15px;
+}
+
+#bts_eu>a {
+    height: 50px;
 }
