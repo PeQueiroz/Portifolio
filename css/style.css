@@ -210,3 +210,22 @@ header {
 #bts_eu>a {
     height: 50px;
 }
+
+#sobre>span>h1{
+    color: whitesmoke;
+}
+
+#sobre>span>h1>span{
+    color: #6C8EF5;
+}
+
+#sobre>span>p{
+    color: whitesmoke;
+}
+
+#sobre{
+    width: 100%;
+    border-bottom: 2px solid #1E262D;
+    font-family: "JetBrains Mono", monospace;
+    padding: 60px;
+}
