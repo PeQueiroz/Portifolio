@@ -213,6 +213,7 @@ header {
 
 #sobre>span>h1{
     color: whitesmoke;
+    margin-bottom: 10px;
 }
 
 #sobre>span>h1>span{
@@ -228,4 +229,76 @@ header {
     border-bottom: 2px solid #1E262D;
     font-family: "JetBrains Mono", monospace;
     padding: 60px;
+    box-sizing: border-box;
+}
+
+#projetos{
+    padding: 60px;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+}
+
+#projetos>h1{
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+#projetos>h1>span{
+    color: #6C8EF5;
+}
+
+#projetos-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #10151c;
+  border: 1px solid #1f2733;
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  color: #cfd8e3;
+  margin: 0 0 10px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7ec9ff;
+  flex-shrink: 0;
+}
+
+.ext {
+  color: #8b98a8;
+}
+
+.desc {
+  color: #8b98a8;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0 0 14px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background: #161d27;
+  border: 1px solid #1f2733;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  color: #cfd8e3;
 }
