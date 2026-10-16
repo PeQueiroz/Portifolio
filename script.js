@@ -1,7 +1,7 @@
 (() => {
   const cv = document.getElementById('bg'), ctx = cv.getContext('2d');
   const mk = document.getElementById('mk'), pg = document.getElementById('pg');
-  const SET = '01λπΣ∂∇∞≈θ{}[]<>/\\|*+=#%&@$ABCDEF'.split('');
+  const SET = '𝛢𝛣𝛤𝛥𝛬𝛱𝛴𝛺𝛼𝛽𝛾𝛿𝜀𝜃𝜆𝜋𝜎𝜔∝∴∵∀∃∄∈∉∋∅'.split('');
   const COL = ['255,72,56', '70,115,255', '46,190,90', '170,95,250', '165,170,185', '165,170,185'];
   const SIZES = [11, 13, 15];
   const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
