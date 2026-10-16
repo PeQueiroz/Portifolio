@@ -1,136 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="teste">
-    <link rel="icon" type="image/png" href="/img/icon.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_horiz" />
-
-    <title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedro Henrique Queiroz — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Syne:wght@800&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <div id="nome_pontos">
-            <span class="material-symbols-outlined">more_horiz</span>
-            <h1 id="nome_topo">~/pedro-henrique-queiroz/portifólio</h1>
-        </div>
-        <div id="url">
-            <nav>
-                <a href="#sobre" class="scroll_lk">Sobre/</a>
-            </nav>
-            <nav>
-                <a href="#projetos" class="scroll_lk">Projetos/</a>
-            </nav>
-            <nav>
-                <a href="#skills" class="scroll_lk">Skills/</a>
-            </nav>
-            <nav>
-                <a href="#contato" class="scroll_lk">Contato/</a>
-            </nav>
-        </div>
-    </header>
-    <section id="eu">
-        <div id="esquerda">
-            <div id="caixa1">
-                <div class="file-name">perfil.js</div>
+<canvas id="bg" aria-hidden="true"></canvas>
 
-                <div class="code">
-                    <div>
-                        <span class="linha">1</span>
-                        <span class="keyword">const</span>
-                        <span class="variable">dev</span>
-                        <span class="operator">=</span>
-                        <span class="bracket">{</span>
-                    </div>
+<header class="top">
+  <a class="name" href="#">Pedro Henrique Queiroz</a>
+  <div class="skills"><span>Machine Learning</span><i>|</i><span>LLMs</span><i>|</i><span>Java</span><i>|</i><span>Python</span></div>
+</header>
 
-                    <div>
-                        <span class="linha">2</span>
-                        <span class="property">Nome:</span>
-                        <span class="string">"Pedro Henrique Queiroz"</span><span>,</span>
-                    </div>
+<div class="ruler" aria-hidden="true"><div id="mk"><b id="pg">0</b></div></div>
 
-                    <div>
-                        <span class="linha">3</span>
-                        <span class="property">Papel:</span>
-                        <span class="string">"Desenvolvedor"</span><span>,</span>
-                    </div>
+<section class="hero">
+  <h1><span>Pedro Henrique</span><span>Queiroz</span></h1>
+  <p class="tg">Código, modelos e <em>experimentos.</em></p>
+  <!-- Edite este texto à vontade -->
+  <p class="lead">Meu portfólio de projetos pessoais em Machine Learning, LLMs, Java e Python.</p>
+  <div class="bt">
+    <a class="b1" href="#projetos">Ver projetos</a>
+    <!-- Troque SEU-USUARIO pelo seu usuário do GitHub -->
+    <a class="b2" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      Abrir Github
+    </a>
+  </div>
+  <nav class="hl" aria-label="Atalhos">
+    <a href="#projetos">Projetos</a>
+    <a href="#sobre">Sobre mim</a>
+  </nav>
+</section>
 
-                    <div>
-                        <span class="linha">4</span>
-                        <span class="property">Formacão:</span>
-                        <span class="string">"Técnico em DS, Bacharel em Ciência da Computação"</span><span>,</span>
-                    </div>
+<section class="sec" id="projetos">
+  <h2>Projetos</h2>
+  <!-- ADICIONE SEUS PROJETOS DENTRO DESTA DIV -->
+  <div class="slot" id="projetos-conteudo"></div>
+</section>
 
-                    <div>
-                        <span class="linha">5</span>
-                        <span class="property">Foco:</span>
-                        <span class="bracket">[</span>
-                        <span class="string">"Software"</span><span>,</span>
-                        <span class="string">"Dados"</span><span>,</span>
-                        <span class="string">"IA"</span>
-                        <span class="bracket">]</span><span>,</span>
-                    </div>
+<section class="sec" id="sobre">
+  <h2>Sobre mim</h2>
+  <!-- ADICIONE SEU TEXTO "SOBRE MIM" DENTRO DESTA DIV -->
+  <div class="slot" id="sobre-conteudo"></div>
+</section>
 
-                    <div>
-                        <span class="linha">6</span>
-                        <span class="property">Disponivel:</span>
-                        <span class="boolean">true</span>
-                    </div>
-
-                    <div>
-                        <span class="linha">7</span>
-                        <span class="bracket">};</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="direita">
-            <div id="caixa2">
-                <div>
-                    <span id="acima">Sempre em busca de cohecimento.</span>
-                </div>
-                <div>
-                    <span id="meio">Olá, sou Pedro Queiroz</span>
-                </div>
-                <div>
-                    <span id="lema">Aprender - Construir - Evoluir</span>
-                </div>
-                <div id="bts_eu">
-                    <a href="#projetos"><button class="bt_eu">$ ./ver-projetos</button></a>
-                    <a href="https://github.com/PeQueiroz"><button class="bt_eu">$ open github.com</button></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="sobre">
-        <span>
-            <h1>sobre mim<span>/</span></h1>
-        </span>
-        <span>
-            <p>Sou estudante de Ciência da Computação e venho desenvolvendo projetos voltados</p>
-            <p> principalmente para programação, inteligência artificial e análise de dados.</p>
-        </span>
-    </section>
-    <section id="projetos">
-        <h1>projetos<span>/</span></h1>
-        <div id="projetos-lista"></div>
-    </section>
-    <section id="skills">
-
-    </section>
-    <section id="contato">
-
-    </section>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
