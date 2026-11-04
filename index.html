@@ -1,55 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pedro Henrique Queiroz — Portfólio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Syne:wght@800&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pedro Henrique Queiroz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Syne:wght@800&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<canvas id="bg" aria-hidden="true"></canvas>
+  <canvas id="bg" aria-hidden="true"></canvas>
 
-<header class="top">
-  <a class="name" href="#">Pedro Henrique Queiroz</a>
-  <div class="skills"><span>Machine Learning</span><i>|</i><span>LLMs</span><i>|</i><span>Java</span><i>|</i><span>Python</span></div>
-</header>
+  <header class="top">
+    <a class="name" href="#">•••</a>
+    <nav class="hl" aria-label="Atalhos">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+    </nav>
+  </header>
 
-<div class="ruler" aria-hidden="true"><div id="mk"><b id="pg">0</b></div></div>
-
-<section class="hero">
-  <h1><span>Pedro Henrique</span><span>Queiroz</span></h1>
-  <p class="tg">Código, modelos e <em>experimentos.</em></p>
-  <!-- Edite este texto à vontade -->
-  <p class="lead">Meu portfólio de projetos pessoais em Machine Learning, LLMs, Java e Python.</p>
-  <div class="bt">
-    <a class="b1" href="#projetos">Ver projetos</a>
-    <!-- Troque SEU-USUARIO pelo seu usuário do GitHub -->
-    <a class="b2" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">
-      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-      Abrir Github
-    </a>
+  <div class="ruler" aria-hidden="true">
+    <div id="mk"><b id="pg">0</b></div>
   </div>
-  <nav class="hl" aria-label="Atalhos">
-    <a href="#projetos">Projetos</a>
-    <a href="#sobre">Sobre mim</a>
-  </nav>
-</section>
 
-<section class="sec" id="projetos">
-  <h2>Projetos</h2>
-  <!-- ADICIONE SEUS PROJETOS DENTRO DESTA DIV -->
-  <div class="slot" id="projetos-conteudo"></div>
-</section>
+  <section class="hero">
+    <h1><span>Pedro Henrique Queiroz</span></h1>
+    <p class="tg">Código, modelos e <em>experimentos.</em></p>
+    <p class="lead">Meu portfólio de projetos pessoais em Machine Learning, LLMs, Java e Python.</p>
+    <div class="bt">
+      <a class="b1" href="#projetos">Ver projetos</a>
+      <a class="b2" href="https://github.com/PeQueiroz" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" aria-hidden="true">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+        </svg>
+        Abrir Github
+      </a>
+    </div>
 
-<section class="sec" id="sobre">
-  <h2>Sobre mim</h2>
-  <!-- ADICIONE SEU TEXTO "SOBRE MIM" DENTRO DESTA DIV -->
-  <div class="slot" id="sobre-conteudo"></div>
-</section>
+  </section>
 
-<script src="script.js"></script>
+  <section class="sec" id="sobre">
+    <div class="sobre-grid">
+
+      <div class="sobre-texto">
+        <h2>Sobre mim:</h2>
+        <div class="slot" id="sobre-conteudo">
+          <p>
+            Meu nome é <span>Pedro Queiroz,</span> sou formado em Desenvolvimento
+            de Sistemas pelo SENAI e, atualmente, curso Ciência da
+            Computação na UNIFBV Wyden.
+          </p>
+
+          <p>
+            Desenvolvi este portfólio com o objetivo de documentar,
+            organizar e compartilhar os projetos que realizo ao longo
+            da minha jornada de aprendizado, colocando em prática os
+            conhecimentos adquiridos e explorando novas tecnologias,
+            ferramentas e funcionalidades.
+          </p>
+
+          <p>
+            Tenho interesse em áreas como Aprendizado de
+            Máquina, Análise e Ciência de Dados, campos
+            nos quais busco aprofundar meus conhecimentos
+            e desenvolver soluções que unam tecnologia,
+            inovação e análise inteligente de informações.
+          </p>
+        </div>
+      </div>
+
+      <div class="sobre-foto" id="sobre-foto">
+        <img src="/img/foto.png" alt="Foto de Pedro Queiroz">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="sec" id="projetos">
+    <h2>Projetos</h2>
+    <div class="slot" id="projetos-conteudo">
+      <div class="proj-filtros" id="proj-filtros" role="toolbar" aria-label="Filtrar projetos"></div>
+      <div class="proj-grid" id="proj-grid"></div>
+      <p class="proj-vazio" id="proj-vazio" hidden>Nenhum projeto com esse filtro ainda.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
