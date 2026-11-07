@@ -511,12 +511,12 @@ observer.observe(fotoSobre);
      ============================================================ */
   const PROJETOS = [
     {
-      titulo: 'Classificador de Sentimentos',
-      descricao: 'Modelo de classificação de textos com embeddings e regressão logística.',
-      tags: ['Python', 'Machine Learning', 'NLP'],
+      titulo: 'Previsor de Imóveis',
+      descricao: 'Modelo que prevê o preço de imóveis com base em características como localização, tamanho e número de quartos.(CALIFÓRNIA HOUSING DATASET)',
+      tags: ['Python', 'Machine Learning', 'Rede Neural',],
       ano: 2026,
       status: 'em andamento',
-      github: 'https://github.com/seu-usuario/classificador-sentimentos',
+      github: 'https://github.com/PeQueiroz/previsor_imoveis',
     },
   ];
 
