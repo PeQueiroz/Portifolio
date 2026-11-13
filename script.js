@@ -503,12 +503,6 @@ const observer = new IntersectionObserver(([entrada]) => {
 observer.observe(fotoSobre);
 
 (function () {
-  /* ============================================================
-     SEUS PROJETOS: para adicionar um novo, copie um bloco abaixo.
-     Coloque o mais recente no topo.
-     Campos opcionais: ano, status, github, demo.
-     Os filtros são criados sozinhos a partir das "tags".
-     ============================================================ */
   const PROJETOS = [
     {
       titulo: 'Previsor de Imóveis',
